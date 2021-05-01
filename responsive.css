@@ -1,0 +1,117 @@
+/* スマホ向けレイアウト */
+@media screen and(max-width: 670px) {
+    /* font-sizeを24pxに指定
+    .story {
+        font-size: 5rem;
+    }
+    .content-black {
+        width: 100%;
+    } */
+
+    /* font-sizeを14pxに指定 */
+    /* .p {
+        font-size: 1rem;
+    } */
+}
+@media screen and (max-width: 670px) {
+    /* div.content {
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    } */
+    h3.aos-init {
+        color: aliceblue;
+        /* font-size: 1.5rem; */
+        padding-top: 46px;
+    }
+    h1.aos-init {
+        color: aliceblue;
+        /* font-size: 2rem; */
+        letter-spacing: 10px;
+        line-height: 40px;
+    }
+
+    p.aos-init {
+        color: aliceblue;
+        /* font-size: 0.5rem; */
+    }
+
+    .story {
+        color: #5bc0de;
+        /* font-size: 7rem; */
+        margin: 7rem 4rem;
+    }
+    .story2 {
+        color: #5bc0de;
+        /* font-size: 7rem; */
+        margin: 7rem 1.5rem;
+    }
+    p.sub-title-black {
+        color: aliceblue;
+        opacity: 0.9;
+        text-align: center;
+        z-index: 7;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        line-height: 16px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        /* font-size: 12px; */
+        padding-top: 173px;
+    }
+    p.secret {
+        /* font-size: 34px; */
+        color: aliceblue;
+        /* opacity: 0.9; */
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        line-height: 50px;
+        /* letter-spacing: 3px; */
+        font-weight: 700;
+    }
+    p.sentence {
+        /* font-size: 16px; */
+        color: aliceblue;
+        /* opacity: 0.9; */
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        letter-spacing: 2px;
+        font-weight: 300;
+        text-align: center;
+        padding: 0 95px;
+    }
+
+    .work {
+        font-size: 11rem;
+
+        display: block;
+        margin: 0px 12px;
+    }
+
+    .status1 {
+        padding-bottom: 30px;
+    }
+
+    /* footer */
+    .contact {
+        margin-bottom: 5px;
+    }
+    .info {
+        padding-top: 20px;
+        margin-bottom: 5px;
+    }
+    .col-md-6 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    #map {
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+    #gmap {
+        width: 100%;
+    }
+}
