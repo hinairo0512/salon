@@ -4,27 +4,26 @@
 
 
 <head>
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 
-    <script type="text/javascript">
-        jQuery(function ($) {
+
+</head>
+
+<body>
+    <span class="counter">1,234,567</span>
+    <div class="counter">1,567</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+
+    <script src="jquery.counterup.min.js"></script>
+    <script>
+        $(document).ready(function () {
             $('.counter').counterUp({
                 delay: 10,
                 time: 1000
             });
         });
     </script>
-</head>
-
-
-<body>
-    <span class="counter">1,234,567</span>
-
-
-
-    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
-
-
 </body>
+
 
 </html>

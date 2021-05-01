@@ -2,12 +2,22 @@
 
 ## bootstrap,html,aos,
 ```html
- <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-md navbar-light transparent" id="mainNav"
-                    style="height: 90px; background-color: none;">
-                    <a class="navbar-brand" href="#"><img src="img/logoremake.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+<!-- counterup -->
+ <body>
+    <span class="counter">1,234,567</span>
+    <div class="counter">1,567</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+
+    <script src="jquery.counterup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+</body>
 
 ```
