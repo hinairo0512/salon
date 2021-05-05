@@ -26,17 +26,17 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
 
-
-
-
-
-
-
-
-
-
-
-
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- popper -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <title>Cherimo</title>
@@ -44,300 +44,425 @@
 </head>
 
 <body>
-    <!-- <a id="mkdf-back-to-top" href="#" class="on">
-        <span class="mkdf-arrow"></span>
-    </a> -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-md navbar-light transparent" id="mainNav"
-                    style="height: 90px; background-color: none;">
-                    <a class="navbar-brand" href="#"><img src="img/logoremake.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="https://beauty.hotpepper.jp/slnH000433050/coupon/">MENU<span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="https://beauty.hotpepper.jp/slnH000433050/style/">STYLE <span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="https://beauty.hotpepper.jp/slnH000433050/blog/">BLOG <span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://beauty.hotpepper.jp/slnH000433050/">SHOP</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Dropdown link
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid px-0">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="top-img1 img-fluid" src="img/topimg2.jpg" alt="top-img">
-                            <div class="content">
-                                <h3 data-aos="fade-down" data-aos-easing="" data-aos-duration="1500" class="feel">
-                                    Feel Free</h3>
-                                <h1 data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500" 　class="
-                                    title">•COLORS•</h1>
-                                <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"
-                                    class="sub-title">NARA•SINCE 2021</p>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="top-img1 img-fluid" src="img/topimg3.jpg" alt="top-img">
-                            <div class="content">
-                                <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="new">
-
-                                    New You</h3>
-                                <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" 　class="
-                                                            title">•STYLISH•</h1>
-                                <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"
-                                    class="sub-title">NARA•SINCE
-                                    2021</p>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="top-img1 img-fluid" src="img/マスク.jpg" alt="top-img">
-                            <div class="content">
-                                <h3 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="new">
-
-                                    Get Noticed</h3>
-                                <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" 　class="
-                                                                                    title">•FASHION•</h1>
-                                <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"
-                                    class="sub-title">NARA•SINCE
-                                    2021</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid px-0 pb-5 mb-5 ">
-        <div class="row" id="open-close">
-            <div class="col-md-1"></div>
-            <div class="col-md-4 mt-5 mb-5 ">
-                <div class="working-hours">
-                    <h2 class="work">Work</h2>
-                    <h4 class="working">WORKING HOURS</h4>
-
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-4 mt-5 pt-4">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th class="day">OPEN</th>
-                            <th class="time">9:30AM</th>
-                        </tr>
-                    </thead>
-                    <thead>
-                        <tr>
-                            <th class="day">CLOSE</th>
-                            <th class="time">19:30PM</th>
-                        </tr>
-                    </thead>
-                    <thead>
-                        <tr>
-                            <th class="day">REGULAR HOLIDAY</th>
-                            <th class="time">MONDAY</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-            <div class="col-md-2"></div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="container-fluid mx-0">
-        <div class="row" style="background: #282828">
-            <div class="col-md-6 px-0">
-                <img class="img-fluid" src="img/blackwoman.jpg" alt="">
-            </div>
-            <div class="col-md-6 px-0">
-                <div class="content-black">
-                    <div class="story">Story</div>
-                    <p data-aos="fade-left" data-aos-easing="linear" data-aos-duration="300" class="sub-title-black">
-                        NARA•SINCE 2021</p>
-                    <p data-aos="fade-left" data-aos-easing="linear" data-aos-duration="300" class="secret">OUR
-                        SUCCESS SECRET</p>
-                    <p data-aos="fade-left" data-aos-easing="linear" data-aos-duration="300" class="sentence">Lorem
-                        ipsum dolor sit amet,
-                        consectetur adipisicing
-                        elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna
-                        aliqua. Ut enim ad minim veniam.</p>
-                    <a href="" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="300"
-                        class="btn btn-outline">READ MORE</button></a>
-                </div>
-            </div>
-
-            <div class="col-md-6  px-0">
-                <div class="content-black">
-                    <div class="story2 font-small">Process</div>
-                    <p data-aos="fade-right" data-aos-easing="linear" data-aos-duration="300" class="sub-title-black">
-                        NARA•SINCE 2021</p>
-                    <p data-aos="fade-right" data-aos-easing="linear" data-aos-duration="300" class="secret">HOW
-                        WE DO IT</p>
-                    <p data-aos="fade-right" data-aos-easing="linear" data-aos-duration="300" class="sentence">Lorem
-                        ipsum dolor sit amet,
-                        consectetur adipisicing
-                        elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna
-                        aliqua. Ut enim ad minim veniam.</p>
-                    <a href="" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="300"
-                        class="btn btn-outline">READ
-                        MORE</button></a>
-                </div>
-            </div>
-            <div class="col-md-6 px-0">
-                <img class="img-fluid" src="img/マスクグループ 5.jpg" alt="">
-            </div>
-            <div class="col-md-12 mx-0">
+    <div id="wrap">
+        <header>
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-3" style="min-height: 369px;">
-                        <div class="count-inner">
-                            <h5 class="shows">Shows</h5>
-                            <p class="count" data-num="125">0</p><span></span>
-                            <!-- <span class="counter" style="display: inline-block; width: 32%; color:#fff;">125</span> -->
-                            <h6 class=fashion>FASHION SHOW</h6>
+                    <nav class="navbar navbar-expand-lg navbar-light p-0">
+                        <div class="container-fluid p-0">
+                            <a class="navbar-brand" href=#><img src="img/logoremake.png" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">ホーム</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="https://beauty.hotpepper.jp/slnH000433050/coupon/">メニュー</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="https://beauty.hotpepper.jp/slnH000433050/style/">スタイル</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="https://beauty.hotpepper.jp/slnH000433050/blog/">ブログ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="https://beauty.hotpepper.jp/slnH000433050/map/">アクセス</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="https://beauty.hotpepper.jp/slnH000433050/stylist/">スタッフ</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            リンク
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#"></a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-
-
-                    <div class="col-md-3" style="min-height: 369px; ">
-                        <h5 class="clients">Clients</h5>
-                        <div class="count-inner">
-                            <!-- <p class="count" data-num="300">0</p><span></span> -->
-                            <span class="counter" style="display: inline-block; width: 32%; color:#fff;">300</span>
-                            <h6 class="world">Worldwide Costomer</h6>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container-fluid px-0">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="top-img1 img-fluid" src="img/topimg2.jpg" alt="top-img">
+                                    <div data-aos="fade-right" data-aos-offset="" data-aos-easing="ease-in-sine"
+                                        data-aos-duration="500" class="content">
+                                        <p class="feel">
+                                            Feel Free</p>
+                                        <p class="title">
+                                            •COLORS•</p>
+                                        <p class="sub-title">
+                                            NARA•SINCE 2021</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="top-img1 img-fluid" src="img/topimg3.jpg" alt="top-img">
+                                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                        class="content">
+                                        <p class="feel">
+                                            New You</p>
+                                        <p class="title">
+                                            •STYLISH•</p>
+                                        <p class="sub-title">
+                                            NARA•SINCE 2021</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="top-img1 img-fluid" src="img/topimg4.jpg" alt="top-img">
+                                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                        class="content">
+                                        <p class="feel">
+                                            Get Noticed</p>
+                                        <p class="title">
+                                            •FASHION•</p>
+                                        <p class="sub-title">
+                                            NARA•SINCE 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleFade" role="button"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleFade" role="button"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </a>
                         </div>
-                    </div>
-
-
-                    <div class="col-md-3" style="min-height: 369px; ">
-                        <h5 class="awards">Awards</h5>
-                        <div class="count-inner">
-                            <!-- <p class="count" data-num="35">0</p><span></span> -->
-                            <span class="counter" style="display: inline-block; width: 32%">35</span>
-                            <h6 class="award">Award Winners</h6>
-                        </div>
-
-
-                    </div>
-                    <div class="col-md-3" style="min-height: 369px;">
-                        <h5 class="hair">Hair</h5>
-                        <div class="count-inner">
-                            <!-- <p class="count" data-num="145">0</p><span></span> -->
-                            <span class="counter" style="display: inline-block; width: 32%">145</span>
-                            <h6 class="different">Different Hairstyles</h6>
-                        </div>
+                        <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="top-img1 img-fluid" src="img/topimg2.jpg" alt="top-img">
+                                    <div data-aos="fade-right" data-aos-offset="" data-aos-easing="ease-in-sine"
+                                        data-aos-duration="500" class="content">
+                                        <p class="feel">
+                                            Feel Free</p>
+                                        <p class="title">
+                                            •COLORS•</p>
+                                        <p class="sub-title">
+                                            NARA•SINCE 2021</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="top-img1 img-fluid" src="img/topimg3.jpg" alt="top-img">
+                                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                        class="content">
+                                        <p class="feel">
+                                            New You</p>
+                                        <p class="title">
+                                            •STYLISH•</p>
+                                        <p class="sub-title">
+                                            NARA•SINCE 2021</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="top-img1 img-fluid" src="img/topimg4.jpg" alt="top-img">
+                                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                        class="content">
+                                        <p class="feel">
+                                            Get Noticed</p>
+                                        <p class="title">
+                                            •FASHION•</p>
+                                        <p class="sub-title">
+                                            NARA•SINCE 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </a>
+                        </div> -->
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container-fluid mt-5 pt-5 px-0">
-        <div class="row">
-            <div class="col-md-2 sm-12"></div>
-            <div class="col-md-4">
-                <img class="stylist-face img-fluid" src="img/ryoya.jpg" alt="">
-                <a class="stylist" href="https://beauty.hotpepper.jp/slnH000433050/stylist/T000523744/">Ryoya
-                    /リョウヤ</a>
-                <!-- <div class="stylist" ml-2>Ryoya /リョウヤ</div> -->
-                <div class="status1">Owner/Stylist</div>
-            </div>
-            <div class="col-md-1 sm-12"></div>
-            <div class="col-md-4">
-                <img class="stylist-face img-fluid" src="img/kayo.jpg" alt="">
-                <!-- <div class="stylist">kayo</div> -->
-                <a class="stylist" href="https://beauty.hotpepper.jp/slnH000433050/stylist/T000588636/">Kayo</a>
-                <div class="status2">Stylist</div>
-            </div>
-            <div class="col-md-1"></div>
-        </div>
-        <div class="col-md-12 mt-5 pt-5 pb-4 px-0" style="background-image: url(img/store.jpg);">
 
-            <div class="row py-5 ">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <div class="letter">
-                        <p class="follow1">follow our work</p>
-                        <h4 class="newsletter">NEWSLETTER</h4>
-                        <p class="follow2">Get a shiny, satin-soft hair with the best hair products &amp; a team of
-                            hairdressers
-                            that will transform your look.
-                            Follow us!</p>
+            <div class="container-fluid px-0 pb-5 mb-5 ">
+                <div class="row" id="open-close">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4 mt-5 mb-5 ">
+                        <div class="working-hours">
+                            <h2 class="work">Work</h2>
+                            <h4 class="working">WORKING HOURS</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4 mt-5 pt-4">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="day">OPEN</th>
+                                    <th class="time">9:30AM</th>
+                                </tr>
+                            </thead>
+                            <thead>
+                                <tr>
+                                    <th class="day">CLOSE</th>
+                                    <th class="time">19:30PM</th>
+                                </tr>
+                            </thead>
+                            <thead>
+                                <tr>
+                                    <th class="day">REGULAR HOLIDAY</th>
+                                    <th class="time">MONDAY</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+            <div class="container-fluid mx-0">
+                <div class="row" style="background: #282828">
+                    <div class="col-md-6 px-0">
+                        <img class="img-fluid" src="img/blackwoman.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 px-0">
+                        <div class="content-black">
+                            <div class="story d-none d-md-block">Story</div>
+                            <p data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                class="sub-title-black">
+                                NARA•SINCE 2021</p>
+                            <p data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="secret">
+                                OUR
+                                SUCCESS SECRET</p>
+                            <p data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                class="sentence">
+                                Lorem
+                                ipsum dolor sit amet,
+                                consectetur adipisicing
+                                elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna
+                                aliqua. Ut enim ad minim veniam.</p>
+                            <a href="" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                class="btn btn-outline">READ MORE</button></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6  px-0">
+                        <div class="content-black">
+                            <div class="story2  d-none d-md-block">Process</div>
+                            <p data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                class="sub-title-black">
+                                NARA•SINCE 2021</p>
+                            <p data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                class="secret">HOW
+                                WE DO IT</p>
+                            <p data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                class="sentence">
+                                Lorem
+                                ipsum dolor sit amet,
+                                consectetur adipisicing
+                                elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna
+                                aliqua. Ut enim ad minim veniam.</p>
+                            <a href="" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                class="btn btn-outline">READ
+                                MORE</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-0">
+                        <img class="img-fluid" src="img/blackwoman2.jpg" alt="">
+                    </div>
+                    <div class="col-md-12 mx-0 mt-5 mb-5 pt-5 pb-5">
+                        <div class="into-title">INFORMATION</div>
                         <div class="row">
                             <div class="col-md-2"></div>
-                            <div class="col-md-8 pb-3">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Email" aria-label="Email"
-                                        aria-describedby="basic-addon2">
-                                    <div class="input-group-append">
-                                        <span class="input-group-text" id="basic-addon2">SIGN UP</span>
+                            <div class="col-md-8" id="info">
+                                <table class="news">
+                                    <tbody>
+                                        <tr>
+                                            <th>2021年04月01日</th>
+                                            <td>
+                                                <p>Cherimoオープン</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>2021年04月01日</th>
+                                            <td>
+                                                <p>コロナ対策取組みのご案内</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>2021年06月01日</th>
+                                            <td>
+                                                <p>夏季休業のお知らせ</p>
+                                            </td>
+                                        </tr>
+                                        <!-- <tr>
+                                        <th>2020年07月23日</th>
+                                        <td>
+                                            <p> </p>
+                                            <div class="c-none">
+                                                <span>地域と社会を守るために、厚生労働省の『接触確認アプリ-COCOA』をインストールしご利用いただきますようお願いします。</span>
+                                                <br>
+                                                <span>また、アプリにて陽生者との接触が確認できた場合は、体調の具合に関わらず、ご来店の見合わせをご協力をよろしくお願い申し上げます。</span>
+                                            </div>
+                                            <p></p>
+                                            <p> </p>
+                                            <div class="c-none">
+                                                <span><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/cocoa_00138.html"
+                                                        data-="">インストールはこちらから</a></span>
+                                            </div>
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>2020年05月18日</th>
+                                        <td>
+                                            <p>5/20より全メニューの最終受付時間を16：30 へと変更させていただきます。</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>2020年04月22日</th>
+                                        <td>
+                                            <p>奈良県の要請により4/25〜5/6までアイラッシュの営業を自粛させていただきます。</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>2020年04月10日</th>
+                                        <td>
+                                            <p>事態収集まで、サービスドリンク・雑誌の提供を一時見合わせております。</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>2020年04月06日</th>
+                                        <td>
+                                            <p>①感染防止の意味から、当面の間『前髪カットを無料』とさせていただきます。</p>
+                                            <p>②外出自粛によりサロンへお越しできない方へ、『商品を送料無料』で送らせていただきます。<br>※できましたら数点まとめて頂けるとありがたいです。</p>
+                                        </td>
+                                    </tr> -->
+                                    </tbody>
+                                </table>
+                                <div class="col-md-2"></div>
+                                <!-- <div class="col-md-3" style="min-height: 369px;">
+                                <div class="count-inner">
+                                    <h5 class="shows">Shows</h5>
+                                    <p class="count" data-num="125">0</p><span></span>                                  
+                                    <h6 class=fashion>FASHION SHOW</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3" style="min-height: 369px; ">
+                                <h5 class="clients">Clients</h5>
+                                <div class="count-inner">                                 
+                                    <span class="counter"
+                                        style="display: inline-block; width: 32%; color:#fff;">300</span>
+                                    <h6 class="world">Worldwide Costomer</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3" style="min-height: 369px; ">
+                                <h5 class="awards">Awards</h5>
+                                <div class="count-inner">                                    
+                                    <span class="counter" style="display: inline-block; width: 32%">35</span>
+                                    <h6 class="award">Award Winners</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3" style="min-height: 369px;">
+                                <h5 class="hair">Hair</h5>
+                                <div class="count-inner">
+                                    <span class="counter" style="display: inline-block; width: 32%">145</span>
+                                    <h6 class="different">Different Hairstyles</h6>
+                                </div>
+                            </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid mt-5 pt-5 px-0">
+                    <div class="row">
+                        <div class="col-md-2 sm-12"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            data-aos-duration="500" class="col-md-4">
+                            <img class="stylist-face img-fluid" src="img/ryoya.jpg" alt="">
+                            <a class="stylist"
+                                href="https://beauty.hotpepper.jp/slnH000433050/stylist/T000523744/">Ryoya
+                                /リョウヤ</a>
+
+                            <div class="status1">
+                                Owner/Stylist</div>
+                        </div>
+                        <div class="col-md-1 sm-12"></div>
+                        <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            data-aos-duration="500" class="col-md-4">
+                            <img class="stylist-face img-fluid" src="img/kayo.jpg" alt="">
+
+                            <a class="stylist"
+                                href="https://beauty.hotpepper.jp/slnH000433050/stylist/T000588636/">Kayo</a>
+                            <div class="status2">Stylist
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <div class="col-md-12 mt-5 pt-5 pb-4 px-0"
+                        style="background-image: url(img/store.jpg); background-size: cover;">
+
+                        <div class="row py-5 ">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <div class="letter">
+                                    <p class="follow1">follow our work</p>
+                                    <h4 class="newsletter">NEWSLETTER</h4>
+                                    <p class="follow2">Get a shiny, satin-soft hair with the best hair products &amp; a
+                                        team of
+                                        hairdressers
+                                        that will transform your look.
+                                        Follow us!</p>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-8 pb-3">
+                                            <div class="row">
+                                                <div class="col-md-8 px-0 ">
+                                                    <div class="input-group mb-3">
+                                                        <input type="text" class="form-control" placeholder="Email"
+                                                            aria-label="Email" aria-describedby="button-addon2">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 px-0">
+                                                    <button class="btn btn-outline-secondary" type="button"
+                                                        id="button-addon2">SIGN UP</button>
+                                                </div>
+                                                <!-- <div class="input-group mb-3">
+                                                    <input type="text" class="form-control" placeholder="Email"
+                                                        aria-label="Email" aria-describedby="basic-addon2">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 px-0">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text" id="basic-addon2">SIGN UP</span> -->
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -347,74 +472,75 @@
                 </div>
                 <div class="col-md-2"></div>
             </div>
-        </div>
+    </div>
+    </div>
+    </main>
 
-
-        <!--footer -->
-        <div class="container-fluid">
-            <div class="row" style="background-color: #000000; padding:142px 0;">
-                <div class="col-md-3 ">
-                    <div class="contact">CONTACT</div>
-                    <p class="adress">〒631-0044 奈良県奈良市藤ノ木台4丁目3-1</p>
-                    <p class="tel">tel:0742-47-1166</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="info">INFO</div>
-                    <!-- <ul class="info-ul">
+    <!--footer -->
+    <div class="container-fluid">
+        <div class="row" style="background-color: #000000; padding:142px 0;">
+            <div class="col-md-3 ">
+                <div class="contact">CONTACT</div>
+                <p class="adress">〒631-0044 奈良県奈良市藤ノ木台4丁目3-1</p>
+                <p class="tel">tel:0742-47-1166</p>
+            </div>
+            <div class="col-md-3">
+                <div class="info">INFO</div>
+                <!-- <ul class="info-ul">
                         <li class="info1">Working Days<span>9AM - 9PM</span></li>
                         <li class="info2">Saturday<span>9AM - 9PM</span></li>
                         <li class="info3">Sunday<span>9AM - 9PM</span></li>
                     </ul>
                 </div>  -->
-                    <table class="table2" style=" width:90%;">
-                        <thead>
-                            <tr>
-                                <th class="working2">OPEN</th>
-                                <th class="time2">9:30AM</th>
-                            </tr>
-                        </thead>
-                        <thead>
-                            <tr>
-                                <th class="working2">CLOSE</th>
-                                <th class="time2">19:30PM</th>
-                            </tr>
-                        </thead>
-                        <thead>
-                            <tr>
-                                <th class="working2">REGULAR HOLIDAY</th>
-                                <th class="time2">MONDAY</th>
-                            </tr>
-                        </thead>
-                    </table>
-                </div>
-
-                <div class="col-md-6">
-                    <div id="map">MAPS</div>
-                    <div id="gmap"></div>
-                    <script
-                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiR_l-5frTdJ8RydN47lhcseY8Rjc5uJM&callback=initMap"
-                        async></script>
-                    <script>
-                        var map;
-                        var marker;
-                        var geocoder;
-                        function initMap() {
-                            var mapPosition = new google.maps.LatLng(34.67747658083132, 135.75807575657123);//緯度経度
-                            var map = new google.maps.Map(document.getElementById('gmap'), {
-                                zoom: 17,//ズーム
-                                center: mapPosition
-                            });
-                            var marker = new google.maps.Marker({
-                                position: mapPosition,
-                                map: map
-                            });
-                        }
-                    </script>
-                    <!-- <div id="gmap"></div> -->
-                </div>
-
+                <table class="table2" style=" width:90%;">
+                    <thead>
+                        <tr>
+                            <th class="working2">OPEN</th>
+                            <th class="time2">9:30AM</th>
+                        </tr>
+                    </thead>
+                    <thead>
+                        <tr>
+                            <th class="working2">CLOSE</th>
+                            <th class="time2">19:30PM</th>
+                        </tr>
+                    </thead>
+                    <thead>
+                        <tr>
+                            <th class="working2">REGULAR HOLIDAY</th>
+                            <th class="time2">MONDAY</th>
+                        </tr>
+                    </thead>
+                </table>
             </div>
+
+            <div class="col-md-6">
+                <div id="map">MAPS</div>
+                <div id="gmap"></div>
+                <script
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiR_l-5frTdJ8RydN47lhcseY8Rjc5uJM&callback=initMap"
+                    async></script>
+                <script>
+                    var map;
+                    var marker;
+                    var geocoder;
+                    function initMap() {
+                        var mapPosition = new google.maps.LatLng(34.67747658083132, 135.75807575657123);//緯度経度
+                        var map = new google.maps.Map(document.getElementById('gmap'), {
+                            zoom: 17,//ズーム
+                            center: mapPosition
+                        });
+                        var marker = new google.maps.Marker({
+                            position: mapPosition,
+                            map: map
+                        });
+                    }
+                </script>
+                <!-- <div id="gmap"></div> -->
+            </div>
+
         </div>
+    </div>
     </div>
 
 
@@ -470,12 +596,7 @@
 
 
     <!-- countup -->
-    <!-- <span class="counter">1,234,567</span>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script src="jquery.counterup.min.js"></script> -->
-
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-
     <script src="../jquery.counterup.min.js"></script>
 
 
@@ -503,12 +624,12 @@
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
 
-    <!-- bootstrap     -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
 
-    <!-- googlemap -->
+
 
 
 </body>
